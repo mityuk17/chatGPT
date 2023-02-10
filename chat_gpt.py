@@ -1,7 +1,7 @@
 import openai
 openai.api_key = ""
 
-def text(text):
+async def text(text):
     model_engine = "text-davinci-003"
     prompt = text
 
@@ -15,7 +15,7 @@ def text(text):
         presence_penalty=0
     )
     return completion
-def create_image(text, size):
+async def create_image(text, size):
     response = openai.Image.create(
         prompt=text,
         n=1,

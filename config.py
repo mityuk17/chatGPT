@@ -58,11 +58,16 @@ If context save OFF your balance decreases more slowly
  256x256 Стоимость: 256
  512x512 Стоимость: 500
  1024x1024 Стоимость: 1000''',
-    'i_subscribed_en' : 'I subscribed',
-    'i_subscribed_ru' : 'Я подписался',
+    '256image' : 256,
+    '512image': 500,
+    '1024image' : 1000,
+    'i_subscribed_en' : 'Check_subscription',
+    'i_subscribed_ru' : 'Проверить подписку',
     'channel': -1001310822652,
-    'thanks_for_subscribe_en' : 'Thanks for subscribing',
-    'thanks_for_subscribe_ru': 'Спасибо за подписку',
+    'thanks_for_subscribe_en' : '''Thank you for subscribing to the channel, now you can use the bot
+ Send any message and bot will answer you''',
+    'thanks_for_subscribe_ru': '''Спасибо за подписку на канал, теперь вы можете пользоваться ботом
+Напишите любое сообщение и бот ответит вам''',
     'offer_subscribe_en' : '''Hello, I am GPT3 chat bot, write any message and I will start talking to you
 
 To use the bot, you need to subscribe to the channel 
@@ -70,8 +75,45 @@ t.me/working_4ever''',
     'offer_subscribe_ru' : '''Привет, я чат бот GPT3, напиши любое сообщение и я начну с тобой разговаривать
 
 Для использования бота, тебе нужно подписаться на канал
-t.me/working_4ever'''
-
+t.me/working_4ever''',
+    'offer_donation_en' :'''Buy a 30 days unlimited subscription
+Choose payment method''',
+    'offer_donation_ru' :'''Купить 30 дней безлимитной подписки
+Выберите способ оплаты''',
+    'donation_qiwi_en' : '''Buy monthly unlimited subscription for 350 RUB''',
+    'donation_qiwi_ru' : '''30 дней безлимитной подписки за 350 рублей''',
+    'offer_to_pay_ru' : '''30 дней безлимитной подписки за 350 рублей''',
+    'offer_to_pay_en' : '''Buy monthly unlimited subscription for 350 RUB''',
+    'price' : 1,
+    'payment_exists_en':'''You already have existing payment''',
+    'payment_exists_ru':'''У вас уже есть активный счёт для оплаты''',
+    'restart_payment_en' :'''Delete previous and create new payment''',
+    'restart_payment_ru' :'''Удалить предыдущий платёж и создать новый''',
+    'qiwi_token' : "eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6IjM5cm1rei0wMCIsInVzZXJfaWQiOiI3OTE5Njg2MzA3MiIsInNlY3JldCI6IjFkMzU1ZjAwN2YyNzY2ZWQ1YjUxYWI0OTM4ZjliMWIzYmIxZDQyZGMwMzc3MGI5Mzc1NzExNjNmMjYwMzgyMGYifX0=",
+    'go_payment_en': '''You need to pay the bill Qiwi.
+The bill will expire in 15 minutes.
+After payment press the button below.
+''',
+    'go_payment_ru': '''Вам необходимо оплатить счет Qiwi.
+Счет действителен в течение 15 минут.
+После оплаты нажмите на кнопку ниже.''',
+    'check_payment_en' : 'I paid',
+    'check_payment_ru' : 'Я оплатил',
+    'successful_payment_en' : 'The payment is succesful.',
+    'successful_payment_ru' : 'Платёж прошёл успешно.',
+    'unsuccessful_payment_en' : 'The payment is not confirmed.',
+    'unsuccessful_payment_ru' : 'Платёж не подтверждён.',
+    'already_subscribed_en' : 'You already have subscription.',
+    'already_subscribed_ru' : 'У вас уже активна подписка.',
+    'active_subscription_en': 'Your subscription is active',
+    'active_subscription_ru': 'У вас активна подписка',
+    'not_enough_money_en' : 'Not enough money on balance',
+    'not_enough_money_ru' : 'Недостаточно средств на балансе',
+    '1token_price' : 10,
+    'break_dialog_en' :'Reset dialog',
+    'break_dialog_ru': 'Сбросить диалог',
+    'dialog_restarted_en' : 'Dialog reseted',
+    'dialog_restarted_ru' : 'Диалог сброшен'
 
 
 
