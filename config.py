@@ -1,5 +1,5 @@
 data = {
-    'token': '1817474310:AAFd3zZ0KF6_GdsBqgy-I1QtdyvCDGO7d5Y' ,
+    'token': '' ,
     'start_message': '''Hello for start choose menu language
 Привет для начала выбери язык для меню''' ,
     'balance_en': 'Balance' ,
@@ -24,7 +24,7 @@ Choose option💠''',
     'balance_2row_ru': 'Ежедневный бесплатное пополнение: ',
     'balance_3row_ru': 'За приглашенных рефералов: ',
     'balance_4row_ru': 'Баланс обновляется автоматически в 00:00 Москва,Россия(GMT+3)',
-    'bot_start_link': 'https://t.me/NeverNowhere_bot/?start=',
+    'bot_start_link': '',
     'referal_1row_en': '''Use this link to adding friends and increase your daily balance income.
 One referral 100 tokens add to daily incoming''',
     'referal_2row_en': 'Your id: ',
@@ -63,7 +63,7 @@ If context save OFF your balance decreases more slowly
     '1024image' : 1000,
     'i_subscribed_en' : 'Check_subscription',
     'i_subscribed_ru' : 'Проверить подписку',
-    'channel': -1001310822652,
+    'channel': 0,
     'thanks_for_subscribe_en' : '''Thank you for subscribing to the channel, now you can use the bot
  Send any message and bot will answer you''',
     'thanks_for_subscribe_ru': '''Спасибо за подписку на канал, теперь вы можете пользоваться ботом
@@ -89,7 +89,7 @@ Choose payment method''',
     'payment_exists_ru':'''У вас уже есть активный счёт для оплаты''',
     'restart_payment_en' :'''Delete previous and create new payment''',
     'restart_payment_ru' :'''Удалить предыдущий платёж и создать новый''',
-    'qiwi_token' : "eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6IjM5cm1rei0wMCIsInVzZXJfaWQiOiI3OTE5Njg2MzA3MiIsInNlY3JldCI6IjFkMzU1ZjAwN2YyNzY2ZWQ1YjUxYWI0OTM4ZjliMWIzYmIxZDQyZGMwMzc3MGI5Mzc1NzExNjNmMjYwMzgyMGYifX0=",
+    'qiwi_token' : "",
     'go_payment_en': '''You need to pay the bill Qiwi.
 The bill will expire in 15 minutes.
 After payment press the button below.
